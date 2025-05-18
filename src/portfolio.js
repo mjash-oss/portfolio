@@ -23,23 +23,23 @@ const greeting = {
   username: "Maya Ashley-Martin",
   title: "Hi all, I'm Maya",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer with experience in building fullstack web applications with JavaScript / Reactjs / React and more."
+    "A passionate Full Stack Software Developer with experience in building web applications using JavaScript / Python / React / Typescript and more."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1QZgcZKAAPLY0IKLCmcYnZTI9cRuO-63UV3BR6yZoGkk/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/mjash-oss",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  github: "https://github.com/mjash-oss", //add instagram 
+  linkedin: "https://www.linkedin.com/in/maya-ashley-martin-a701aa302/",
   gmail: "mj.ashleymartin@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
+  //gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  //medium: "https://medium.com/@saadpasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   //Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -123,7 +123,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Queen's University",
-      logo: require("./assets/images/harvardLogo.png"), //change this to Queen's logo
+      logo: require("./assets/images/queensLogo.png"), //change this to Queen's logo
       subHeader: "Bachelor of Science in Computer and Cognitive Science",
       duration: "September 2024 - April 2028",
       //desc: "Participated in the research of XXX and published 3 papers.",
@@ -172,7 +172,7 @@ const workExperiences = {
     {
       role: "Intern",
       company: "Hunter Engineering",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/hunterLogo.png"), //change this, this is messed up
       date: "Winter 2023",
       desc: "Shadowed several different software engineers and observed them work on the software that controls Hunter's equipment.",
       descBullets: [
@@ -182,14 +182,14 @@ const workExperiences = {
     {
       role: "Assistant Tutor",
       company: "Kumon Math and Reading Centre",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/kumonLogo.png"),
       date: "Summer 2023",
       desc: "Tutored 10 children one on one aged 5 to 15 in math and reading up to the level of calculus and advanced functions, working to define my tutoring style for each child."
     },
     {
       role: "Coffee Cart Volunteer",
       company: "John Cochran Veterans Hospital",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/veteransLogo.png"),
       date: "Summer 2025",
       desc: "Brewed coffee and set up a coffee station for the veterans in the Ambassador suite."
     }
@@ -247,30 +247,30 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "7th Place HOSA Future Health Professionals International Competition - CPS",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "CPS stands for Creative Problem Solving, I co-led a team outlining the shortage of healthcare professionals.",
       image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "HOSA Logo",
       footerLink: [
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        //{
+        //  name: "Award Letter",
+        //  url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        //},
+        //{
+        //  name: "Google Code-in Blog",
+        //  url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        //}
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "1st Place HOSA Future Health Professionals Missouri State Competition - CPS",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Created a group presentation outlining the effects of mental llness in teens and a possible solution to this problem.",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -281,19 +281,19 @@ const achievementSection = {
       ]
     },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+    //{
+    //  title: "PWA Web App Developer",
+    //  subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //  image: require("./assets/images/pwaLogo.webp"),
+    //  imageAlt: "PWA Logo",
+    //  footerLink: [
+    //    {name: "Certification", url: ""},
+    //    {
+    //      name: "Final Project",
+    //      url: "https://pakistan-olx-1.firebaseapp.com/"
+    //    }
+    //  ]
+    //}
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -351,7 +351,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
