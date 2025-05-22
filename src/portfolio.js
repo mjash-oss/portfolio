@@ -1,9 +1,10 @@
 /* Change this file to get your personal Portfolio */
+//change the favicon to something more like myself, and change the safari-pinned-tab as well 
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation (figure out what this does)
 
 // Splash Screen
 
@@ -56,7 +57,7 @@ const skillsSection = {
     ),
     emoji("Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      " Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      " Integration of third party services such as Firebase / AWS / Digital Ocean"
     )
   ],
 
@@ -211,7 +212,7 @@ const bigProjects = {
   subtitle: "MY CURRENT AND PAST FREELANCE PROJECTS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/cogTutor.png"), 
       projectName: "CognitiveTutor",
       projectDesc: "Created a daily puzzle website that gives the user a new puzzle each time the game is played, it will eventually increase in difficulty and return motivational rewards for streaks of a certain number of days",
       footerLink: [
@@ -223,7 +224,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/nextuLogo.webp"), //create a logo here 
       projectName: "Lecture Summarizer",
       projectDesc: "Working on this project with Kay Yan, will create an app that records a lecture then produces a written format",
       footerLink: [
@@ -254,8 +255,8 @@ const achievementSection = {
       imageAlt: "HOSA Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Award",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" //make this a picture of us with the medal
         },
         //{
         //  name: "Award Letter",
@@ -271,7 +272,7 @@ const achievementSection = {
       title: "1st Place HOSA Future Health Professionals Missouri State Competition - CPS",
       subtitle:
         "Created a group presentation outlining the effects of mental llness in teens and a possible solution to this problem.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/googleAssistantLogo.webp"), //hosa logo instead 
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -360,7 +361,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
