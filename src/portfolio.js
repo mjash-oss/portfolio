@@ -192,7 +192,7 @@ const workExperiences = {
       company: "John Cochran Veterans Hospital",
       companylogo: require("./assets/images/veteransLogo.png"),
       date: "Summer 2025",
-      desc: "Brewed coffee and set up a coffee station for the veterans in the Ambassador suite."
+      desc: "Faciliated an engaging environment for veterans by setting up and managing a morning coffee station." //maybe add more 
     }
   ]
 };
@@ -224,6 +224,18 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/omTitle.png"), 
+      projectName: "Photography Website",
+      projectDesc: "Created a personal photography website for a client Omkaar A to display his photography skills / best work",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "mashleymartin.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/nextuLogo.webp"), //create a logo here 
       projectName: "Lecture Summarizer",
       projectDesc: "Working on this project with Kay Yan, will create an app that records a lecture then produces a written format",
@@ -248,9 +260,9 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "7th Place HOSA Future Health Professionals International Competition - CPS",
+      title: "7th Place HOSA Future Health Professionals International Competition - Creative Problem Solving (CPS)",
       subtitle:
-        "CPS stands for Creative Problem Solving, I co-led a team outlining the shortage of healthcare professionals.",
+        "I co-led a team outlining the shortage of healthcare professionals.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "HOSA Logo",
       footerLink: [
@@ -269,7 +281,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "1st Place HOSA Future Health Professionals Missouri State Competition - CPS",
+      title: "1st Place HOSA Future Health Professionals Missouri State Competition - Creative Problem Solving (CPS)",
       subtitle:
         "Created a group presentation outlining the effects of mental llness in teens and a possible solution to this problem.",
       image: require("./assets/images/googleAssistantLogo.webp"), //hosa logo instead 
