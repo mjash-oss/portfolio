@@ -23,7 +23,7 @@ const illustration = {
 const greeting = {
   username: "Maya Ashley-Martin",
   title: "Hi all, I'm Maya",
-  subTitle: (
+  subTitle: emoji(
     "A passionate Full Stack Software Developer with experience in building web applications using JavaScript / Python / React / Typescript and more."
   ),
   resumeLink:
@@ -263,7 +263,7 @@ const achievementSection = {
       title: "7th Place HOSA Future Health Professionals International Competition - Creative Problem Solving (CPS)",
       subtitle:
         "I co-led a team outlining the shortage of healthcare professionals.",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/hosaLogo.png"),
       imageAlt: "HOSA Logo",
       footerLink: [
         {
@@ -284,7 +284,7 @@ const achievementSection = {
       title: "1st Place HOSA Future Health Professionals Missouri State Competition - Creative Problem Solving (CPS)",
       subtitle:
         "Created a group presentation outlining the effects of mental llness in teens and a possible solution to this problem.",
-      image: require("./assets/images/googleAssistantLogo.webp"), //hosa logo instead 
+      image: require("./assets/images/hosaLogo.png"), //hosa logo instead 
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
