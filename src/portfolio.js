@@ -23,7 +23,7 @@ const illustration = {
 const greeting = {
   username: "Maya Ashley-Martin",
   title: "Hi all, I'm Maya",
-  subTitle: emoji(
+  subTitle: (
     "A passionate Full Stack Software Developer with experience in building web applications using JavaScript / Python / React / Typescript and more."
   ),
   resumeLink:
