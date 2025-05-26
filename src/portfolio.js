@@ -1,5 +1,5 @@
 /* Change this file to get your personal Portfolio */
-//change the favicon to something more like myself, and change the safari-pinned-tab as well 
+//change the favicon to something more like myself, and change the safari-pinned-tab as well
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
@@ -34,7 +34,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/mjash-oss", //add instagram 
+  github: "https://github.com/mjash-oss", //add instagram
   linkedin: "https://www.linkedin.com/in/maya-ashley-martin-a701aa302/",
   gmail: "mj.ashleymartin@gmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
@@ -126,21 +126,21 @@ const educationInfo = {
       schoolName: "Queen's University",
       logo: require("./assets/images/queensLogo.png"), //change this to Queen's logo
       subHeader: "Bachelor of Science in Computer and Cognitive Science",
-      duration: "September 2024 - April 2028",
+      duration: "September 2024 - April 2028"
       //desc: "Participated in the research of XXX and published 3 papers.",
       //descBullets: [
       //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       //]
-    },
-//    {
-//      schoolName: "Stanford University",
-//      logo: require("./assets/images/stanfordLogo.png"),
-//      subHeader: "Bachelor of Science in Computer Science",
-//      duration: "September 2013 - April 2017",
-//      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-//      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-//    }
+    }
+    //    {
+    //      schoolName: "Stanford University",
+    //      logo: require("./assets/images/stanfordLogo.png"),
+    //      subHeader: "Bachelor of Science in Computer Science",
+    //      duration: "September 2013 - April 2017",
+    //      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    //      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    //    }
   ]
 };
 
@@ -177,7 +177,7 @@ const workExperiences = {
       date: "Winter 2023",
       desc: "Shadowed several different software engineers and observed them work on the software that controls Hunter's equipment.",
       descBullets: [
-        "Firsthand exposure to full-stack workflows, such as backend device login and frontend UIs",
+        "Firsthand exposure to full-stack workflows, such as backend device login and frontend UIs"
       ]
     },
     {
@@ -192,7 +192,7 @@ const workExperiences = {
       company: "John Cochran Veterans Hospital",
       companylogo: require("./assets/images/veteransLogo.png"),
       date: "Summer 2025",
-      desc: "Faciliated an engaging environment for veterans by setting up and managing a morning coffee station." //maybe add more 
+      desc: "Faciliated an engaging environment for veterans by setting up and managing a morning coffee station." //maybe add more
     }
   ]
 };
@@ -212,9 +212,10 @@ const bigProjects = {
   subtitle: "MY CURRENT AND PAST FREELANCE PROJECTS",
   projects: [
     {
-      image: require("./assets/images/cogTutor.png"), 
+      image: require("./assets/images/cogTutor.png"),
       projectName: "CognitiveTutor",
-      projectDesc: "Created a daily puzzle website that gives the user a new puzzle each time the game is played, it will eventually increase in difficulty and return motivational rewards for streaks of a certain number of days",
+      projectDesc:
+        "Created a daily puzzle website that gives the user a new puzzle each time the game is played, it will eventually increase in difficulty and return motivational rewards for streaks of a certain number of days",
       footerLink: [
         {
           name: "Visit Website",
@@ -224,9 +225,10 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/omTitle.png"), 
+      image: require("./assets/images/omTitle.png"),
       projectName: "Photography Website",
-      projectDesc: "Created a personal photography website for a client Omkaar A to display his photography skills / best work",
+      projectDesc:
+        "Created a personal photography website for a client Omkaar A to display his photography skills / best work",
       footerLink: [
         {
           name: "Visit Website",
@@ -236,9 +238,10 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"), //create a logo here 
+      image: require("./assets/images/nextuLogo.webp"), //create a logo here
       projectName: "Lecture Summarizer",
-      projectDesc: "Working on this project with Kay Yan, will create an app that records a lecture then produces a written format",
+      projectDesc:
+        "Working on this project with Kay Yan, will create an app that records a lecture then produces a written format",
       footerLink: [
         //{
         //  name: "Visit Website",
@@ -255,12 +258,12 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters!",
+  subtitle: "Achievements, Certifications, Award Letters!",
 
   achievementsCards: [
     {
-      title: "7th Place HOSA Future Health Professionals International Competition - Creative Problem Solving (CPS)",
+      title:
+        "7th Place HOSA Future Health Professionals International Competition - Creative Problem Solving (CPS)",
       subtitle:
         "I co-led a team outlining the shortage of healthcare professionals.",
       image: require("./assets/images/hosaLogo.png"),
@@ -269,7 +272,7 @@ const achievementSection = {
         {
           name: "Award",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" //make this a picture of us with the medal
-        },
+        }
         //{
         //  name: "Award Letter",
         //  url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
@@ -281,10 +284,11 @@ const achievementSection = {
       ]
     },
     {
-      title: "1st Place HOSA Future Health Professionals Missouri State Competition - Creative Problem Solving (CPS)",
+      title:
+        "1st Place HOSA Future Health Professionals Missouri State Competition - Creative Problem Solving (CPS)",
       subtitle:
         "Created a group presentation outlining the effects of mental llness in teens and a possible solution to this problem.",
-      image: require("./assets/images/hosaLogo.png"), //hosa logo instead 
+      image: require("./assets/images/hosaLogo.png"), //hosa logo instead
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -292,7 +296,7 @@ const achievementSection = {
           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         }
       ]
-    },
+    }
 
     //{
     //  title: "PWA Web App Developer",
