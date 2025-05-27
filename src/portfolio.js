@@ -113,32 +113,34 @@ const skillsSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-const workExperiences = { //this is actually faq, just can't change the name or i get errors 
-    display: true, //Set it to true to show workExperiences Section
-    experience: [
+const workExperiences = {
+  //this is actually faq, just can't change the name or i get errors
+  display: true, //Set it to true to show workExperiences Section
+  experience: [
     {
-        role: "How long does it take to develop this website / landing page / homepage?",
-        answer: "The timeline varies based on project complexity, as a small fix or creation of just a homepage would take under a week. A larger project, such as the creation of a site with user authentication would take between a week and two weeks.",
+      role: "How long does it take to develop this website / landing page / homepage?",
+      answer:
+        "The timeline varies based on project complexity, as a small fix or creation of just a homepage would take under a week. A larger project, such as the creation of a site with user authentication would take between a week and two weeks.",
       //companylogo: require("./assets/images/hunterLogo.png"), //change this, this is messed up
       //date: "Winter 2023",
-        desc: "The timeline varies based on project complexity, as a small fix or creation of just a homepage would take under a week. A larger project, such as the creation of a site with user authentication would take between a week and two weeks.",
+      desc: "The timeline varies based on project complexity, as a small fix or creation of just a homepage would take under a week. A larger project, such as the creation of a site with user authentication would take between a week and two weeks."
       //descBullets: [
       //  "Firsthand exposure to full-stack workflows, such as backend device login and frontend UIs"
       //]
     },
     {
-        role: "What do you need to create my site?",
+      role: "What do you need to create my site?",
       //company: "I will need the content you would like to post on your site, such as text and images. If you do not have content ready, I can easily add placeholder images and texts.",
       //companylogo: require("./assets/images/kumonLogo.png"),
       //date: "Summer 2023",
-        desc: "I will need the content you would like to post on your site, such as text and images. If you do not have content ready, I can easily add placeholder images and texts.."
+      desc: "I will need the content you would like to post on your site, such as text and images. If you do not have content ready, I can easily add placeholder images and texts.."
     },
     {
-        role: "How many revisions do you offer?",
+      role: "How many revisions do you offer?",
       //company: "I will provide revisions until you are satisfied with my work, and I can provide free support for up to 10 days after closing the order",
       //companylogo: require("./assets/images/veteransLogo.png"),
       //date: "Summer 2025",
-        desc: "I will provide revisions until you are satisfied with my work, and I can provide free support for up to 10 days after closing the order",
+      desc: "I will provide revisions until you are satisfied with my work, and I can provide free support for up to 10 days after closing the order"
     }
   ]
 };
@@ -318,7 +320,8 @@ const blogSection = {
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      question: "How long does it take to develop this website / landing page / homepage?",
+      question:
+        "How long does it take to develop this website / landing page / homepage?",
       title: "",
       answer:
         "The timeline varies based on project complexity, as a small fix or creation of just a homepage would take under a week. A larger project, such as the creation of a site with user authentication would take between a week and two weeks."
@@ -343,8 +346,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "How long does it take to develop this website / landing page / homepage?",
-      subtitle: "The timeline varies based on project complexity, as a small fix or creation of just a homepage would take under a week. A larger project, such as the creation of a site with user authentication would take between a week and two weeks.",
+      title:
+        "How long does it take to develop this website / landing page / homepage?",
+      subtitle:
+        "The timeline varies based on project complexity, as a small fix or creation of just a homepage would take under a week. A larger project, such as the creation of a site with user authentication would take between a week and two weeks."
       //slides_url: "https://bit.ly/saadpasta-slides",
       //event_url: "https://www.facebook.com/events/2339906106275053/"
     }
