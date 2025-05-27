@@ -24,7 +24,7 @@ const greeting = {
   username: "Maya Ashley-Martin",
   title: "Hi all, I'm Maya",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer with experience in building web applications using JavaScript / Python / React / Typescript and more."
+    "Want a simple yet effective website on a budget? I can create a website that is up and running in no time. I am a passionate Full Stack Software Developer with experience in building web applications using JavaScript / Python / React / Typescript and more. Let me know what you want, and I will make it happen!"
   ),
   resumeLink:
     "https://docs.google.com/document/d/1QZgcZKAAPLY0IKLCmcYnZTI9cRuO-63UV3BR6yZoGkk/edit?usp=sharing", // Set to empty to hide the button
@@ -60,10 +60,6 @@ const skillsSection = {
       " Integration of third party services such as Firebase / AWS / Digital Ocean"
     )
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
     {
       skillName: "html-5",
@@ -117,6 +113,36 @@ https://fontawesome.com/icons?d=gallery */
   display: true // Set false to hide this section, defaults to true
 };
 
+const workExperiences = { //this is actually faq, just can't change the name or i get errors 
+    display: true, //Set it to true to show workExperiences Section
+    experience: [
+    {
+        role: "How long does it take to develop this website / landing page / homepage?",
+        answer: "The timeline varies based on project complexity, as a small fix or creation of just a homepage would take under a week. A larger project, such as the creation of a site with user authentication would take between a week and two weeks.",
+      //companylogo: require("./assets/images/hunterLogo.png"), //change this, this is messed up
+      //date: "Winter 2023",
+        desc: "The timeline varies based on project complexity, as a small fix or creation of just a homepage would take under a week. A larger project, such as the creation of a site with user authentication would take between a week and two weeks.",
+      //descBullets: [
+      //  "Firsthand exposure to full-stack workflows, such as backend device login and frontend UIs"
+      //]
+    },
+    {
+        role: "What do you need to create my site?",
+      //company: "I will need the content you would like to post on your site, such as text and images. If you do not have content ready, I can easily add placeholder images and texts.",
+      //companylogo: require("./assets/images/kumonLogo.png"),
+      //date: "Summer 2023",
+        desc: "I will need the content you would like to post on your site, such as text and images. If you do not have content ready, I can easily add placeholder images and texts.."
+    },
+    {
+        role: "How many revisions do you offer?",
+      //company: "I will provide revisions until you are satisfied with my work, and I can provide free support for up to 10 days after closing the order",
+      //companylogo: require("./assets/images/veteransLogo.png"),
+      //date: "Summer 2025",
+        desc: "I will provide revisions until you are satisfied with my work, and I can provide free support for up to 10 days after closing the order",
+    }
+  ]
+};
+
 // Education Section
 
 const educationInfo = {
@@ -163,38 +189,6 @@ const techStack = {
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
-};
-
-// Work experience section
-
-const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
-  experience: [
-    {
-      role: "Intern",
-      company: "Hunter Engineering",
-      companylogo: require("./assets/images/hunterLogo.png"), //change this, this is messed up
-      date: "Winter 2023",
-      desc: "Shadowed several different software engineers and observed them work on the software that controls Hunter's equipment.",
-      descBullets: [
-        "Firsthand exposure to full-stack workflows, such as backend device login and frontend UIs"
-      ]
-    },
-    {
-      role: "Assistant Tutor",
-      company: "Kumon Math and Reading Centre",
-      companylogo: require("./assets/images/kumonLogo.png"),
-      date: "Summer 2023",
-      desc: "Tutored 10 children one on one aged 5 to 15 in math and reading up to the level of calculus and advanced functions, working to define my tutoring style for each child."
-    },
-    {
-      role: "Coffee Cart Volunteer",
-      company: "John Cochran Veterans Hospital",
-      companylogo: require("./assets/images/veteransLogo.png"),
-      date: "Summer 2025",
-      desc: "Faciliated an engaging environment for veterans by setting up and managing a morning coffee station." //maybe add more
-    }
-  ]
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -318,16 +312,16 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "FAQ Section",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "Below is info on what you can expect from my services, and what I need from you.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      question: "How long does it take to develop this website / landing page / homepage?",
+      title: "",
+      answer:
+        "The timeline varies based on project complexity, as a small fix or creation of just a homepage would take under a week. A larger project, such as the creation of a site with user authentication would take between a week and two weeks."
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
@@ -342,17 +336,17 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "FAQ Section",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "Below is info on what you can expect from my services, and what I need from you"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "How long does it take to develop this website / landing page / homepage?",
+      subtitle: "The timeline varies based on project complexity, as a small fix or creation of just a homepage would take under a week. A larger project, such as the creation of a site with user authentication would take between a week and two weeks.",
+      //slides_url: "https://bit.ly/saadpasta-slides",
+      //event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
   display: false // Set false to hide this section, defaults to true
