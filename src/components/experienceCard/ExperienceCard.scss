@@ -10,7 +10,7 @@
 
 .experience-card-dark {
   position: relative;
-  background-color: $darkBackground;
+  //background-color: $darkBackground;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
@@ -52,17 +52,17 @@
   border-radius: 10px 10px 0px 0px;
 }
 
-.experience-div-company {
-  position: absolute;
-  background: transparent;
-  height: 9rem;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+//.experience-div-company {
+//  position: absolute;
+//  background: transparent;
+//  height: 9rem;
+//  top: 0;
+//  left: 0;
+//  width: 100%;
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//}
 
 .experience-text-company {
   text-align: center;

@@ -4,13 +4,12 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation (figure out what this does)
+// Rename to your file name for custom animation (figure out what this does)
 
 // Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
-  animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
 
@@ -22,9 +21,10 @@ const illustration = {
 
 const greeting = {
   username: "Maya Ashley-Martin",
-  title: "Hi all, I'm Maya",
+  title: "Hello, I'm Maya",
+  //title: "The Projects and Experiences of Maya Ashley-martin",
   subTitle: emoji(
-    "Want a simple yet effective website on a budget? I can create a website that is up and running in no time. I am a passionate Full Stack Software Developer with experience in building web applications using JavaScript / Python / React / Typescript and more. Let me know what you want, and I will make it happen!"
+    "Full stack web developer, amateur pianist, Banksy and art enthusiast. Experienced in both wordpress and Python / React / JavaScript website development. Based in St. Louis, MO and Kingston Ontario."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1QZgcZKAAPLY0IKLCmcYnZTI9cRuO-63UV3BR6yZoGkk/edit?usp=sharing", // Set to empty to hide the button
@@ -115,14 +115,14 @@ const skillsSection = {
 
 const workExperiences = {
   //this is actually faq, just can't change the name or i get errors
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "How long does it take to develop this website / landing page / homepage?",
       answer:
         "The timeline varies based on project complexity, as a small fix or creation of just a homepage would take under a week. A larger project, such as the creation of a site with user authentication would take between a week and two weeks.",
       //companylogo: require("./assets/images/hunterLogo.png"), //change this, this is messed up
-      //date: "Winter 2023",
+      date: "How long does it take to develop this website / landing page / homepage?",
       desc: "The timeline varies based on project complexity, as a small fix or creation of just a homepage would take under a week. A larger project, such as the creation of a site with user authentication would take between a week and two weeks."
       //descBullets: [
       //  "Firsthand exposure to full-stack workflows, such as backend device login and frontend UIs"
@@ -154,7 +154,7 @@ const educationInfo = {
       schoolName: "Queen's University",
       logo: require("./assets/images/queensLogo.png"), //change this to Queen's logo
       subHeader: "Bachelor of Science in Computer and Cognitive Science",
-      duration: "September 2024 - April 2028"
+      //duration: "September 2024 - April 2028"
       //desc: "Participated in the research of XXX and published 3 papers.",
       //descBullets: [
       //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -198,7 +198,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -228,7 +228,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "mashleymartin.com/"
+          url: "https://mashleymartin.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -266,8 +266,8 @@ const achievementSection = {
       imageAlt: "HOSA Logo",
       footerLink: [
         {
-          name: "Award",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" //make this a picture of us with the medal
+          name: "Awards Page",
+          url: "https://hosa.org/wp-content/uploads/2023/06/2023-Secondary-Winners.pdf" //make this a picture of us with the medal
         }
         //{
         //  name: "Award Letter",
@@ -288,9 +288,13 @@ const achievementSection = {
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
+          name: "View Teammates and I",
           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+        },
+        {
+          name: "What is HOSA?",
+          url: "https://hosa.org/what-is-hosa/"
+        },
       ]
     }
 
@@ -380,9 +384,9 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  title: emoji("Contact Me"),
+  //subtitle:
+  //  ".",
   number: "314-203-0159",
   email_address: "mj.ashleymartin@gmail.com"
 };

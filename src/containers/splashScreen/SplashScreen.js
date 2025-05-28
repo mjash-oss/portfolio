@@ -1,15 +1,22 @@
 import React, {useContext} from "react";
 import "./SplashScreen.css";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import {greeting, splashScreen} from "../../portfolio";
+//import {greeting, splashScreen} from "../../portfolio";
+import { greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import { Player } from "@lottiefiles/react-lottie-player";
+import blondLadyAnimation from "../../assets/lottie/blondladyJSON.json";
 
 export default function SplashScreen() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   return (
     <div className={isDark ? "dark-mode splash-container" : "splash-container"}>
       <div className="splash-animation-container">
-        <DisplayLottie animationData={splashScreen.animation} />
+        <Player
+          autoplay
+          loop
+          src={blondLadyAnimation}
+          style={{ height: "300px", width: "300px" }}
+        />
       </div>
       <div className="splash-title-container">
         <span className="grey-color"> &lt;</span>
