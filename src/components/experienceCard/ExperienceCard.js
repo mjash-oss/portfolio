@@ -38,7 +38,9 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <p className="experience-text-desc">{cardInfo.desc}</p>
         <ul>
           {cardInfo.descBullets?.map((item, i) => (
-            <li key={i} className="subTitle">{item}</li>
+            <li key={i} className="subTitle">
+              {item}
+            </li>
           ))}
         </ul>
       </div>

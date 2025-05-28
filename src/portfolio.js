@@ -153,7 +153,7 @@ const educationInfo = {
     {
       schoolName: "Queen's University",
       logo: require("./assets/images/queensLogo.png"), //change this to Queen's logo
-      subHeader: "Bachelor of Science in Computer and Cognitive Science",
+      subHeader: "Bachelor of Science in Computer and Cognitive Science"
       //duration: "September 2024 - April 2028"
       //desc: "Participated in the research of XXX and published 3 papers.",
       //descBullets: [
@@ -294,7 +294,7 @@ const achievementSection = {
         {
           name: "What is HOSA?",
           url: "https://hosa.org/what-is-hosa/"
-        },
+        }
       ]
     }
 
