@@ -36,9 +36,9 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/mjash-oss", //add instagram
   linkedin: "https://www.linkedin.com/in/maya-ashley-martin-a701aa302/",
-  gmail: "mj.ashleymartin@gmail.com",
+  //gmail: "mj.ashleymartin@gmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
+  //facebook: "https://https://www.facebook.com/profile.php?id=61556123274390",
   //medium: "https://medium.com/@saadpasta",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   //Instagram, Twitter and Kaggle are also supported in the links!
@@ -228,7 +228,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://mashleymartin.com/"
+          url: "http://mashleymartin.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -261,7 +261,7 @@ const achievementSection = {
       title:
         "7th Place HOSA Future Health Professionals International Competition - Creative Problem Solving (CPS)",
       subtitle:
-        "I co-led a team outlining the shortage of healthcare professionals.",
+        "I co-led a team outlining the shortage of healthcare professionals and a possible solution to this problem.",
       image: require("./assets/images/hosaLogo.png"),
       imageAlt: "HOSA Logo",
       footerLink: [
